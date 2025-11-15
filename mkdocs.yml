@@ -1,0 +1,24 @@
+site_name: Luckyiheng的博客
+site_description: 我的Markdown学习笔记
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: purple
+    - scheme: slate
+      primary: teal
+      accent: purple
+
+nav:
+  - 首页: index.md
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
