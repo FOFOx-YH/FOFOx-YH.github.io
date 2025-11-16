@@ -43,7 +43,8 @@ theme:
   nav:
     - 首页: index.md
     - 学习资料:
-        - 级数: 级数.md
+      - 级数: 级数.md
+        
 
 markdown_extensions:
   - pymdownx.arithmatex:
