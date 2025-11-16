@@ -1,5 +1,6 @@
 @echo off
 echo 开始更新博客...
+git pull origin main --no-edit
 git add .
 git commit -m "自动更新 %date% %time%"
 git push origin main
