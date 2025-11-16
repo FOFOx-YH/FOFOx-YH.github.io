@@ -40,11 +40,12 @@ theme:
     - search.highlight
     - content.code.copy
     - content.code.annotate
-  nav:
-    - 首页: index.md
-    - 学习资料:
-      - 级数: 级数.md
-        
+
+# 导航配置应该在这里，与theme同级！
+nav:
+  - 首页: index.md
+  - 学习资料:
+    - 级数: 级数.md
 
 markdown_extensions:
   - pymdownx.arithmatex:
