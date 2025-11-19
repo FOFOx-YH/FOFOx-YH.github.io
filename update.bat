@@ -1,4 +1,4 @@
-@echo off
+﻿@echo off
 echo 开始更新博客...
 git pull origin main --no-edit
 git add .
