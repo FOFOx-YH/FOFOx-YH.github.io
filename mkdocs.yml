@@ -46,6 +46,7 @@ nav:
   - 首页: index.md
   - 学习资料:
     - 级数: 级数.md
+    - 算法笔记: 算法笔记.md
 
 markdown_extensions:
   - pymdownx.arithmatex:
