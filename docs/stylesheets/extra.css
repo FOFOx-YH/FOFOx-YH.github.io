@@ -5,60 +5,20 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
 }
 
-/* 重置 Material 主题的布局 */
-.md-main {
-    background: transparent;
-    display: block;
-    padding: 0;
-}
-
+/* 确保内容区域居中 - 最小干预方案 */
 .md-main__inner {
     background: rgba(255, 255, 255, 0.95);
-    margin: 20px auto;
+    margin: 20px auto; /* 关键：使用 auto 实现居中 */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    min-height: calc(100vh - 140px);
-    width: 95%;
-    max-width: none;
-    display: block;
-    position: relative;
+    min-height: calc(100vh - 40px);
+    width: 95%; /* 使用百分比宽度，而不是固定值 */
+    max-width: 1200px; /* 限制最大宽度，保持居中 */
 }
 
 /* 暗色模式适配 */
 [data-md-color-scheme="slate"] .md-main__inner {
     background: rgba(0, 0, 0, 0.9);
-}
-
-/* 修复内容区域 */
-.md-content {
-    width: 100%;
-    max-width: none;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-/* 修复侧边栏 */
-.md-sidebar {
-    background: var(--md-default-bg-color);
-    height: calc(100vh - 120px);
-    top: 60px;
-}
-
-/* 修复导航栏 */
-.md-header {
-    background-color: var(--md-primary-fg-color) !important;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-/* 修复页脚 */
-.md-footer {
-    background-color: var(--md-footer-bg-color);
-    margin-top: 0;
 }

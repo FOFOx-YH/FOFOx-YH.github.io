@@ -13,6 +13,7 @@ body {
 .md-main {
     background: transparent;
     display: block;
+    padding: 0;
 }
 
 .md-main__inner {
@@ -20,12 +21,11 @@ body {
     margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    min-height: calc(100vh - 40px);
-    width: 90%;
-    max-width: 1200px;
+    min-height: calc(100vh - 140px);
+    width: 95%;
+    max-width: none;
+    display: block;
     position: relative;
-    left: auto;
-    right: auto;
 }
 
 /* 暗色模式适配 */
@@ -35,21 +35,30 @@ body {
 
 /* 修复内容区域 */
 .md-content {
-    margin: 0 auto;
+    width: 100%;
     max-width: none;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.md-typeset .md-content__inner {
-    margin: 0 auto;
-    max-width: none;
-}
-
-/* 导航栏保持原样 */
-.md-header {
-    background-color: var(--md-primary-fg-color) !important;
-}
-
-/* 侧边栏保持原样 */
+/* 修复侧边栏 */
 .md-sidebar {
     background: var(--md-default-bg-color);
+    height: calc(100vh - 120px);
+    top: 60px;
+}
+
+/* 修复导航栏 */
+.md-header {
+    background-color: var(--md-primary-fg-color) !important;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* 修复页脚 */
+.md-footer {
+    background-color: var(--md-footer-bg-color);
+    margin-top: 0;
 }
