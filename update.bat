@@ -1,27 +1,24 @@
 @echo off
 chcp 65001 > nul
-echo ===== 博客更新脚本 =====
+echo ===== 强制清理部署 =====
 
-:: 移除时间中的冒号
-set "safe_time=%time::=-%"
+echo 1. 删除构建缓存...
+rmdir /s /q site 2>nul
 
-echo 步骤1: 添加文件到Git...
+echo 2. 清理 Git 缓存...
+git rm -r --cached . 2>nul
 git add .
 
-echo 步骤2: 提交更改...
-git commit -m "更新: %date% %safe_time%"
+echo 3. 强制提交...
+git commit -m "强制清理缓存" || echo 无更改可提交
 
-echo 步骤3: 推送到GitHub...
-git push origin main
-if %errorlevel% neq 0 (
-    echo 推送失败，尝试拉取远程更新...
-    git pull origin main --no-edit
-    git push origin main
-)
+echo 4. 强制推送...
+git push -f origin main
 
-echo 步骤4: 部署网站...
-python -m mkdocs gh-deploy --force
+echo 5. 清理并重新部署...
+python -m mkdocs build --clean
+python -m mkdocs gh-deploy --force --clean
 
-echo ===== 更新成功完成! =====
-echo 请访问: https://luckyiheng.com
+echo ===== 清理完成! =====
+echo 现在应该完全清除了背景
 pause
