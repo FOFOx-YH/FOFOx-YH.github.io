@@ -1,42 +1,15 @@
-/* 整个页面背景 */
-body {
+/* 极简背景方案 - 不修改任何布局 */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-image: url('../assets/images/background.jpg');
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-}
-
-/* 修复 Material 主题的网格布局 */
-.md-grid {
-    max-width: 100%; /* 确保网格使用全宽 */
-}
-
-.md-main__inner {
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-}
-
-/* 暗色模式适配 */
-[data-md-color-scheme="slate"] .md-main__inner {
-    background: rgba(0, 0, 0, 0.9);
-}
-
-/* 确保内容区域正确显示 */
-.md-content {
-    max-width: 100%;
-}
-
-/* 修复侧边栏位置 */
-.md-sidebar {
-    top: 1rem;
-}
-
-/* 修复导航栏 */
-.md-header {
-    background-color: var(--md-primary-fg-color) !important;
+    opacity: 0.1; /* 非常淡的背景 */
+    z-index: -1;
+    pointer-events: none; /* 不影响交互 */
 }
