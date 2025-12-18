@@ -1,0 +1,55 @@
+/* 整个页面背景 */
+body {
+    background-image: url('../assets/images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+/* 重置 Material 主题的布局 */
+.md-main {
+    background: transparent;
+    display: block;
+}
+
+.md-main__inner {
+    background: rgba(255, 255, 255, 0.95);
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: calc(100vh - 40px);
+    width: 90%;
+    max-width: 1200px;
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+/* 暗色模式适配 */
+[data-md-color-scheme="slate"] .md-main__inner {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+/* 修复内容区域 */
+.md-content {
+    margin: 0 auto;
+    max-width: none;
+}
+
+.md-typeset .md-content__inner {
+    margin: 0 auto;
+    max-width: none;
+}
+
+/* 导航栏保持原样 */
+.md-header {
+    background-color: var(--md-primary-fg-color) !important;
+}
+
+/* 侧边栏保持原样 */
+.md-sidebar {
+    background: var(--md-default-bg-color);
+}
