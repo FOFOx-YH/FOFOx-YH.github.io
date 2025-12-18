@@ -1,17 +1,13 @@
-/* -------------------------------
-   页面整体背景
----------------------------------*/
+/* 给整个页面 body 设置背景 */
 body {
-    background-image: url('images/bg.jpg') !important;  /* 图片路径相对 docs/ */
-    background-size: cover !important;                  /* 铺满页面 */
+    background-image: url('/images/bg.jpg') !important;  /* 使用从网站根目录的路径 */
+    background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-attachment: fixed !important;           /* 滚动时固定 */
+    background-attachment: fixed !important;
     background-position: center center !important;
 }
 
-/* -------------------------------
-   内容区半透明背景，保证文字可读
----------------------------------*/
+/* 内容区半透明背景，保证文字可读 */
 .md-content {
     background-color: rgba(255, 255, 255, 0.85) !important;
     padding: 1rem !important;
@@ -19,29 +15,24 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
 }
 
-/* -------------------------------
-   标题颜色
----------------------------------*/
-.md-content h1, 
-.md-content h2, 
-.md-content h3, 
-.md-content h4, 
-.md-content h5, 
+/* 标题颜色 */
+.md-content h1,
+.md-content h2,
+.md-content h3,
+.md-content h4,
+.md-content h5,
 .md-content h6 {
     color: #222 !important;
 }
 
-/* -------------------------------
-   段落和列表
----------------------------------*/
-.md-content p, .md-content li {
+/* 段落和列表 */
+.md-content p,
+.md-content li {
     color: #333 !important;
     text-align: left !important;
 }
 
-/* -------------------------------
-   超链接
----------------------------------*/
+/* 超链接 */
 .md-content a {
     color: #1a73e8 !important;
     text-decoration: underline !important;
