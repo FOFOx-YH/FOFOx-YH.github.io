@@ -1,230 +1,48 @@
-/* 页面背景 */
+/* ---------------------------------
+   页面整体背景
+----------------------------------*/
 body.md-typeset {
-    background-image: url('/images/bg.jpg');
-    background-size: cover;
+    background-image: url('/images/bg.jpg');  /* 背景图片路径 */
+    background-size: cover;                   /* 铺满整个页面 */
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;            /* 页面滚动时固定 */
     background-position: center center;
 }
 
-/* 内容区半透明，保证文字可读 */
+/* ---------------------------------
+   内容区半透明背景，保证文字可读
+----------------------------------*/
 .md-content {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background-color: rgba(255, 255, 255, 0.85); /* 半透明白色 */
+    padding: 1rem;                               /* 内边距 */
+    border-radius: 6px;                           /* 圆角可选 */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);       /* 阴影可选 */
 }
 
-/* 页面背景 */
-body.md-typeset {
-    background-image: url('/images/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
+/* ---------------------------------
+   标题颜色调整，保证可读性
+----------------------------------*/
+.md-content h1, 
+.md-content h2, 
+.md-content h3, 
+.md-content h4, 
+.md-content h5, 
+.md-content h6 {
+    color: #222; /* 深色标题 */
 }
 
-/* 内容区半透明，保证文字可读 */
-.md-content {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* 页面背景 */
-body.md-typeset {
-    background-image: url('/images/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-/* 内容区半透明，保证文字可读 */
-.md-content {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* 页面背景 */
-body.md-typeset {
-    background-image: url('/images/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-/* 内容区半透明，保证文字可读 */
-.md-content {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* 页面背景 */
-body.md-typeset {
-    background-image: url('/images/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-/* 内容区半透明，保证文字可读 */
-.md-content {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* 页面背景 */
-body.md-typeset {
-    background-image: url('/images/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-/* 内容区半透明，保证文字可读 */
-.md-content {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* 页面背景 */
-body.md-typeset {
-    background-image: url('/images/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-/* 内容区半透明，保证文字可读 */
-.md-content {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* 页面背景 */
-body.md-typeset {
-    background-image: url('/images/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-/* 内容区半透明，保证文字可读 */
-.md-content {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* 页面背景 */
-body.md-typeset {
-    background-image: url('/images/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-/* 内容区半透明，保证文字可读 */
-.md-content {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* 页面背景 */
-body.md-typeset {
-    background-image: url('/images/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-/* 内容区半透明，保证文字可读 */
-.md-content {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* 页面背景 */
-body.md-typeset {
-    background-image: url('/images/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-/* 内容区半透明，保证文字可读 */
-.md-content {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* 页面背景 */
-body.md-typeset {
-    background-image: url('/images/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-/* 内容区半透明，保证文字可读 */
-.md-content {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* 页面背景 */
-body.md-typeset {
-    background-image: url('/images/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-/* 内容区半透明，保证文字可读 */
-.md-content {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.md-content h1, .md-content h2, .md-content h3,
-.md-content h4, .md-content h5, .md-content h6 {
-    color: #222;
-}
-
+/* ---------------------------------
+   段落和列表保持左对齐，文字颜色
+----------------------------------*/
 .md-content p, .md-content li {
     color: #333;
-    text-align: left;
+    text-align: left;  /* 避免被 Material 默认两端对齐覆盖 */
+}
+
+/* ---------------------------------
+   可选：超链接颜色
+----------------------------------*/
+.md-content a {
+    color: #1a73e8; /* 蓝色链接，保证对比度 */
+    text-decoration: underline;
 }
