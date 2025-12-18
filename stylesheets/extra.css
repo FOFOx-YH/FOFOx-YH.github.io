@@ -1,11 +1,217 @@
-body {
-    background-image: url('/images/bg.jpg'); /* 使用相对路径 */
+/* 页面背景 */
+body.md-typeset {
+    background-image: url('/images/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
 }
 
+/* 内容区半透明，保证文字可读 */
+.md-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 页面背景 */
+body.md-typeset {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/* 内容区半透明，保证文字可读 */
+.md-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 页面背景 */
+body.md-typeset {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/* 内容区半透明，保证文字可读 */
+.md-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 页面背景 */
+body.md-typeset {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/* 内容区半透明，保证文字可读 */
+.md-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 页面背景 */
+body.md-typeset {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/* 内容区半透明，保证文字可读 */
+.md-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 页面背景 */
+body.md-typeset {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/* 内容区半透明，保证文字可读 */
+.md-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 页面背景 */
+body.md-typeset {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/* 内容区半透明，保证文字可读 */
+.md-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 页面背景 */
+body.md-typeset {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/* 内容区半透明，保证文字可读 */
+.md-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 页面背景 */
+body.md-typeset {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/* 内容区半透明，保证文字可读 */
+.md-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 页面背景 */
+body.md-typeset {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/* 内容区半透明，保证文字可读 */
+.md-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 页面背景 */
+body.md-typeset {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/* 内容区半透明，保证文字可读 */
+.md-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 页面背景 */
+body.md-typeset {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/* 内容区半透明，保证文字可读 */
+.md-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 页面背景 */
+body.md-typeset {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/* 内容区半透明，保证文字可读 */
 .md-content {
     background-color: rgba(255, 255, 255, 0.85);
     padding: 1rem;
