@@ -1,18 +1,26 @@
-/* 整个页面背景，包括导航栏和内容区 */
-.md-main {
-    background: url('/images/bg.jpg') no-repeat center center fixed !important;
-    background-size: cover !important;
+/* 1. 页面全屏背景 */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/bg.jpg'); /* 图片路径从网站根目录开始 */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1; /* 放在最底层，不挡内容 */
 }
 
-/* 内容区半透明，保证文字可读 */
-.md-typeset {
-    background-color: rgba(255,255,255,0.85) !important;
+/* 2. 内容区半透明，保证文字可读 */
+.md-typeset, .md-main__inner {
+    background-color: rgba(255, 255, 255, 0.85) !important;
     padding: 1rem !important;
     border-radius: 6px !important;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
 }
 
-/* 标题颜色 */
+/* 3. 标题颜色 */
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3,
@@ -22,14 +30,14 @@
     color: #222 !important;
 }
 
-/* 段落和列表 */
+/* 4. 段落和列表 */
 .md-typeset p,
 .md-typeset li {
     color: #333 !important;
     text-align: left !important;
 }
 
-/* 超链接 */
+/* 5. 超链接 */
 .md-typeset a {
     color: #1a73e8 !important;
     text-decoration: underline !important;
